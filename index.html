@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://fonts.googleapis.com/css?family=Bree+Serif|Lora" rel="stylesheet" type="text/css">
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+<style class="cp-pen-styles">
+  html,
+  body {
+
+    color: #111;
+    font-size: 14px;
+    font-family: 'Lora';
+  }
+
+  h1 {
+    font-family: 'Bree Serif', cursive;
+    font-size: 3.0rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  hr {
+    width: 75px;
+  }
+
+  .viewport {
+    width: 8.5in;
+    height: 11in;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .viewport .intro .name {
+    margin-right: 2rem;
+  }
+
+  .viewport .intro .preamble {
+    margin-left: auto;
+    position: relative;
+    top: 15px;
+    font-size: 1.2rem;
+    font-family: "Bree Serif";
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+
+  .main .exp {
+    align-self: flex-start;
+    flex: 1.5 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main .exp .gig {
+    margin-top: 15px;
+  }
+
+  .main .exp .gig:first-child {
+    margin-top: 0;
+  }
+
+  .main .exp .gig span {
+    font-weight: bold;
+  }
+
+  .main .exp .gig .company {
+    font-size: 1.5rem;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    display: inline-block;
+    min-width: 4in;
+    margin-right: 30px;
+    margin-bottom: 3px;
+  }
+
+  .main .exp .gig .timeline {
+    font-size: 1rem;
+    float: right;
+    margin-right: 4%;
+  }
+
+  .main .exp .gig .title {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-family: 'Lora';
+    font-weight: bold;
+  }
+
+  .main .exp .gig p {
+    margin-right: 28px;
+    line-height: 22px;
+  }
+
+  .main .manifesto {
+    justify-content: flex-end;
+    flex: 0.85 0 0;
+  }
+
+  .main .manifesto h3 {
+    padding: 0;
+    margin: 0;
+    line-height: 14px;
+    font-family: "Bree Serif";
+    margin-bottom: -10px;
+  }
+
+  .main .manifesto p {
+    line-height: 20px;
+  }
+
+  p span {
+    font-weight: bold;
+    font-family: "Bree Serif";
+  }
+
+  p.requests {
+    text-align: center;
+  }
+
+  dl {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  dd {
+    -webkit-margin-start: 0;
+    margin: 4px 0;
+    margin-right: 28px;
+
+    line-height: 22px;
+  }
+
+  dd span {
+    background: url(woman-tech.png) no-repeat;
+    width: 18px;
+    display: inline-block;
+    height: 18px;
+    background-size: contain;
+  }
+</style>
+</head>
+
+<body>
+  <div class="viewport">
+    <div class="intro">
+      <h1>Yohanes Demissie</h1>
+      <h2>Web and Mobile Developer </h2>
+    </div>
+    <div class="main">
+      <div class="exp">
+        <article class="gig">
+          <section class="company">Code Fellows</section>
+          <aside class="title">Technical Program Manager</aside>
+          <aside class="timeline">October/17 - Present</aside>
+          <dl>
+            <dd>Lead and design the entire Returns user interface to allow users to force more returns to be routed back to one fulfillment center over another.
+            </dd>
+             <dd>Utilize Scrum methodologies to lead, develop, groom, plan, and complete requirements while optimizing team performance.
+            </dd>
+            <dd>Led as product manager and developer for the Nordstrom Vault experience. Customers can pick up/return their products faster, fulfilling the 150% same-day delivery demand. My work resulted in a new shipping option and led to the creation of a new team, dedicated to building and managing the Nordstrom Vault experience.
+            </dd>
+            <dd>Performed root cause analysis on a P2 incident with inventory routing that caused a system failure on nordstrom.com. I diagnosed and led a documentation overhaul on the culprit codebases, dropping unit cancel rate from 5.13% to 1.37%. My work directly led to the creation of the SCA Tools team, dedicated to sustaining collaboration and standards.
+            </dd>
+            <dd>Led as a product manager and developer for "ChatOps", which allows support staff to query API calls/JSON in plain English. Queries were possible for inventory and scenario combinations, empowering all technology employees to problem solve considerably faster than before.
+            </dd>
+            <dd>Led several documentation projects and design meetings along with developing team standards, improving collaboration processes across the .com software teams. These code improvements streamlined development and had powerful impact into the larger Nordstrom technology group, as well as business operations.
+            </dd>
+          </dl>
+          <aside class="title">Software Engineer</aside>
+          <aside class="timeline">August/16 - Present</aside>
+          <dl>
+            <dd>Priority 1 (P1) backend Nordstrom.com microservice (with up to 2500 transactions per second)-Support and diagnose incidents with Logstash, Elasticsearch, Kibana, Grafana, and AWS (Redis, Kafka).
+            </dd>
+            <dd>Made significant improvements in our incident monitoring systems, by creating a custom Grafana-based monitoring system, cutting the response rates by more than 70%.</dd>
+            <dd>Led a large refactor of Nordstrom's logging systems, focusing on ensuring all logging was async and formalized.</dd>
+            <dd>Implemented a protobuf payload option on all API requests for performance, cutting 20 milliseconds off call time.
+            </dd>
+          </dl>
+        </article>
+        <hr>
+        <article class="gig">
+          <section class="company">Ian Gilman</section>
+          <aside class="title">Web Development Engineer</aside>
+
+          <aside class="timeline">March/16 - August/16</aside>
+          <dl>
+            <dd>Optimizations and fixes for Apple TV, General Electric, ChinaFile, Automatic, and ROC UNITED. Made search possible for Apple TV (FOX, FX, NATGEO).
+            </dd>
+            <dd>Created heat maps and line graphs using vehicle data API for mobile app, Automatic.
+            </dd>
+<dd>Built data visualizations with D3.js and improved UX/UI on both web and mobile, and launched websites.</dd>
+            </dd>         
+        <hr>
+        <article class="gig">
+          <section class="company">Freelance</section>
+          <aside class="title">Web Development Engineer</aside>
+
+          <aside class="timeline">January/08 - April/16</aside>
+          <dl>
+            <dd>Led software development and design:
+Websites' front-end, in JavaScript, jQuery, Bootstrap, HTML/CSS as well as UI/UX.
+            </dd> 
+          </dl>  
+          <hr>
+        <article class="gig">
+          <section class="company">AT&T</section>
+          <aside class="title">Program Manager- Retention</aside>
+
+          <aside class="timeline">January/13 - July/15</aside>
+          <dl>
+            <dd>Planned and developed new business practices and skills to AT&T corporate for both business and technology that reduced customer cancellation by 30%.
+            </dd>
+            <dd>Managed all customer experience departments and remained the primary customer contact for business.
+            </dd>
+              <dd>Led customer experience while developing products and features for their needs.
+            </dd>
+            <dd>Ensured current customers stay with the company with a save rate of 95% out of a 68% target.
+            </dd>
+            <dd>Managed customer relationships by recommending and selling up to nine different AT&T products and services to meet their needs. Dominated sales revenue and service objectives of $4,073 by 233% ($9,502) in a fast-paced environment.
+            </dd>
+        </article>
+      </div>
+
+      <article class="manifesto">
+        <dl>
+        <dd>Phone: 555-555-5555</dd>
+        <dd>E-mail: me@me.com</dd>
+        </dl>
+
+        <h3>Technologies</h3>
+        <p><span>Languages</span><br /> Golang, JavaScript, Java, HTML, CSS/SCSS
+        </p>
+        <p><span>Libraries and Tools</span><br /> AWS, Kafka, D3.js, Jira, Kibana, Grafana, Node.js, MySQL, DynamoDB, Elasticsearch, Git, underscore.js, Express.js, Xcode
+        </p>
+
+        <h3>Achievements</h3>
+        <p>Mar 2018 - Code Fellows Tech Talk "How to Be the Best" A tech talk on how to succeed at your first developer job.</p>
+        <p><span>Nordstrom Technology TED Talk</span><br /> Feb 2018 - "Mistical Man Month" An analysis of the book Mythical Man Month to improve Nordstrom technology.
+        </p>
+        <p>Jun 2016 - Nerdstrom Session “Using Chat-Ops to Improve On-Call”</p>
+
+        <p>Apr 2016 - NASA Space Apps Hackathon Best Use of Hardware, Intel Award, and People’s Choice Global Nominee</p>
+        <p>Jan 2014 - AT&T Summit 2014 award, which is awarded to the top 2% of account managers. 
+        </p>
+        </p>
+
+        <h3>Education</h3>
+        <p>Ultimate Go Training</p>
+        <p>JavaScript Code Fellows, Seattle</p>
+        <p>Master of Science, Bachelor of Arts, Communications, School of Business at Murray State University</p>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
